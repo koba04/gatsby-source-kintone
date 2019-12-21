@@ -4,21 +4,23 @@ import { useStaticQuery, graphql } from 'gatsby';
 export const KintoneRecords = () => {
   const data = useStaticQuery(graphql`
     query {
-      allKintoneApp {
+      allKintoneRecord {
         nodes {
-          CompanyName {
+          Customer {
+            value
+          }
+          _id {
             value
           }
         }
       }
     }
   `);
-  console.log(data);
   return (
     <ul>
-      {data.allKintoneApp.nodes.map(node => (
-        <li key={node.CompanyName.value}>
-          {node.CompanyName.value}
+      {data.allKintoneRecord.nodes.map(node => (
+        <li key={node._id.value}>
+          {node.Customer.value}
         </li>
       ))}
     </ul>

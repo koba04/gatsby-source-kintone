@@ -3,23 +3,16 @@ import { getAllRecords } from "./kintone";
 
 export const sourceNodes = async (
   { actions }: any,
-  { apiToken, host }: any
+  { apiToken, host, app }: any
 ) => {
   const { createNode } = actions;
 
-  let records;
-  try {
-    records = await getAllRecords({
-      host,
-      apiToken,
-      appId: "6"
-    });
-  } catch (e) {
-    console.log("error!", host, apiToken);
-    console.log(e);
-  }
-
-  console.log(records);
+  const records = await getAllRecords({
+    host,
+    apiToken,
+    appId: app.id,
+    query: app.query
+  });
 
   records.forEach((record: any) => {
     createNode({
