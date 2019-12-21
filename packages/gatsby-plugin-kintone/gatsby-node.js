@@ -1,3 +1,3 @@
-import {sourceNodes} from './lib/index';
+const {sourceNodes} = require("./lib/index");
 
 exports.sourceNodes = sourceNodes;
