@@ -29,7 +29,10 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-kintone`,
-      options: {}
+      options: {
+        host: process.env.KINTONE_HOST,
+        apiToken: process.env.KINTONE_API_TOKEN,
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
