@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-kintone",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Gatsby plugin for kintone",
   "main": "index.js",
   "scripts": {
