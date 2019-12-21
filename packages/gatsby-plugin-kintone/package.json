@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-source-kintone",
+  "version": "1.0.0",
+  "description": "A Gatsby plugin for kintone",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "lint": "eslint src/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koba04/gatsby-source-kintone.git"
+  },
+  "keywords": [
+    "gatsby",
+    "kintone"
+  ],
+  "author": "koba04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koba04/gatsby-source-kintone/issues"
+  },
+  "homepage": "https://github.com/koba04/gatsby-source-kintone#readme",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^8.1.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  }
+}
