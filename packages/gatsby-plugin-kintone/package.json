@@ -8,7 +8,9 @@
     "release": "yarn lint && yarn build && standard-version",
     "release:dryrun": "yarn lint && yarn build && standard-version --dry-run",
     "start": "tsc --watch",
-    "lint": "eslint src/*.ts",
+    "lint:eslint": "eslint src/*.ts",
+    "lint:tsc": "tsc --noEmit",
+    "lint": "yarn lint:eslint && yarn lint:tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
