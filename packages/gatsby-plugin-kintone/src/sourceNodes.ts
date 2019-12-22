@@ -7,8 +7,8 @@ export const sourceNodes = async (
 ) => {
   const { createNode } = actions;
 
-  return Promise.all(
-    apps.map(async (app: any) => {
+  for (const app of apps) {
+    try {
       const records = await getAllRecords({
         host,
         apiToken,
@@ -17,18 +17,21 @@ export const sourceNodes = async (
       records.forEach((record: any) => {
         createNode({
           ...record,
-          appId: app.id,
+          appId: app.appId,
           id: record.$id.value,
           children: [],
           internal: {
-            type: `kintoneRecord`,
+            type: `Kintone${app.appName}AppRecord`,
             contentDigest: crypto
               .createHash(`md5`)
-              .update(JSON.stringify(record))
+              .update(JSON.stringify({ ...record, appId: app.appId }))
               .digest(`hex`)
           }
         });
       });
-    })
-  );
+    } catch (e) {
+      console.error(e);
+      throw e;
+    }
+  }
 };
