@@ -7,39 +7,10 @@ A Gatsby plugin for kintone to get records from an app on a kintone environment.
 npm install --save-dev gatsby-source-kintone
 ```
 
-## Configuration
+See the documentation for more details.
 
-```js
-// gatsby-config.js
-plugins: [
-    {
-        resolve: `gatsby-source-kintone`,
-        options: {
-            host: process.env.KINTONE_HOST,
-            apiToken: process.env.KINTONE_API_TOKEN,
-            // TODO: support multiple apps
-            app: {
-                id: "{your app id}",
-                query: 'Customer != ""'
-            }
-        }
-    }
-]
-```
+- https://github.com/koba04/gatsby-source-kintone/blob/master/packages/gatsby-plugin-kintone/README.md
 
-## GraphQL Query
+You can see a gatsyapp using `gatsby-source-kintone` on `sandbox`.
 
-```
-query {
-    allKintoneRecord {
-        nodes {
-            Customer {
-                value
-            }
-            _id {
-                value
-            }
-        }
-    }
-}
-```
+- https://github.com/koba04/gatsby-source-kintone/tree/master/packages/sandbox
