@@ -32,10 +32,18 @@ module.exports = {
       options: {
         host: process.env.KINTONE_HOST,
         apiToken: process.env.KINTONE_API_TOKEN,
-        app: {
-          id: 8,
-          query: 'Customer != ""'
-        }
+        apps: [
+          {
+            appId: 6,
+            appName: "Customer",
+            query: 'CompanyName != ""'
+          },
+          {
+            appId: 8,
+            appName: "Inquiry",
+            query: 'Customer != ""'
+          }
+        ]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

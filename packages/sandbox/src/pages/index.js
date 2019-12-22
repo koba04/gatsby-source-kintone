@@ -5,7 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import { KintoneRecords } from '../components/kintone-records';
+import { KintoneInquiryRecords } from '../components/kintone-inquiry-records';
+import { KintoneCustomerRecords } from '../components/kintone-customer-records';
 
 const IndexPage = () => (
   <Layout>
@@ -17,8 +18,10 @@ const IndexPage = () => (
       <Image />
     </div>
     <section>
-      <h2>kintone</h2>
-      <KintoneRecords />
+      <h2>Inquiry</h2>
+      <KintoneInquiryRecords />
+      <h2>Customer</h2>
+      <KintoneCustomerRecords />
     </section>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>

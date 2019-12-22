@@ -16,12 +16,22 @@ plugins: [
         resolve: `gatsby-source-kintone`,
         options: {
             host: process.env.KINTONE_HOST,
+            // you can multiple api tokens as comma-separated list
             apiToken: process.env.KINTONE_API_TOKEN,
-            // TODO: support multiple apps
-            app: {
-                id: "{your app id}",
-                query: 'Customer != ""'
-            }
+            apps: [
+                {
+                    // You can also pass the api token here
+                    // apiToken: "..."
+                    appId: 1,
+                    appName: "Customer",
+                    query: 'CustomerName != ""'
+                },
+                {
+                    appId: 2,
+                    appName: "Company",
+                    query: 'CompanyName != ""'
+                },
+            ]
         }
     }
 ]
@@ -31,12 +41,16 @@ plugins: [
 
 ```
 query {
-    allKintoneRecord {
+    allKintoneCustomerAppRecord {
         nodes {
-            Customer {
+            CustomerName {
                 value
             }
-            _id {
+        }
+    }
+    allKintoneCompanyAppRecord {
+        nodes {
+            CompanyName {
                 value
             }
         }
