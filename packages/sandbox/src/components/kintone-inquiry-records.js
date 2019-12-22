@@ -1,10 +1,10 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-export const KintoneRecords = () => {
+export const KintoneInquiryRecords = () => {
   const data = useStaticQuery(graphql`
     query {
-      allKintoneRecord {
+      allKintoneInquiryAppRecord {
         nodes {
           Customer {
             value
@@ -18,7 +18,7 @@ export const KintoneRecords = () => {
   `);
   return (
     <ul>
-      {data.allKintoneRecord.nodes.map(node => (
+      {data.allKintoneInquiryAppRecord.nodes.map(node => (
         <li key={node._id.value}>
           {node.Customer.value}
         </li>

@@ -34,12 +34,14 @@ module.exports = {
         apiToken: process.env.KINTONE_API_TOKEN,
         apps: [
           {
-            id: 8,
-            query: 'Customer != ""'
+            appId: 6,
+            appName: "Customer",
+            query: 'CompanyName != ""'
           },
           {
-            id: 6,
-            query: ''
+            appId: 8,
+            appName: "Inquiry",
+            query: 'Customer != ""'
           }
         ]
       }
