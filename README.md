@@ -1,5 +1,5 @@
 # gatsby-source-kintone
-![npm](https://img.shields.io/npm/v/gatsby-source-kintone)
+[![npm](https://img.shields.io/npm/v/gatsby-source-kintone)](https://www.npmjs.com/package/gatsby-source-kintone)
 [![](https://github.com/koba04/gatsby-source-kintone/workflows/lint/badge.svg)](https://github.com/koba04/gatsby-source-kintone/actions?workflow=lint)
 
 
