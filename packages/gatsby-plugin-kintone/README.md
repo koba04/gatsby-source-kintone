@@ -16,11 +16,11 @@ plugins: [
         resolve: `gatsby-source-kintone`,
         options: {
             host: process.env.KINTONE_HOST,
-            // you can multiple api tokens as comma-separated list
+            // you can use multiple api tokens as comma-separated list
             apiToken: process.env.KINTONE_API_TOKEN,
             apps: [
                 {
-                    // You can also pass the api token here
+                    // You can also put the api token here
                     // apiToken: "..."
                     appId: 1,
                     appName: "Customer",
