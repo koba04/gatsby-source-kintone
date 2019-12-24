@@ -37,6 +37,6 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "got": "^10.1.0"
+    "got": "^10.2.0"
   }
 }
