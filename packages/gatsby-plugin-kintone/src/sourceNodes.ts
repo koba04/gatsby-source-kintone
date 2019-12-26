@@ -24,7 +24,7 @@ export const sourceNodes = async (
             type: `Kintone${app.appName}AppRecord`,
             contentDigest: crypto
               .createHash(`md5`)
-              .update(JSON.stringify({ ...record, appId: app.appId }))
+              .update(JSON.stringify({ ...record, ...app }))
               .digest(`hex`)
           }
         });

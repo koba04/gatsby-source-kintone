@@ -36,12 +36,12 @@ module.exports = {
           {
             appId: 6,
             appName: "Customer",
-            query: 'CompanyName != ""'
+            condition: 'CompanyName != ""'
           },
           {
             appId: 8,
             appName: "Inquiry",
-            query: 'Customer != ""'
+            condition: 'Customer != ""'
           }
         ]
       }
