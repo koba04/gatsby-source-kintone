@@ -24,12 +24,13 @@ plugins: [
                     // apiToken: "..."
                     appId: 1,
                     appName: "Customer",
-                    query: 'CustomerName != ""'
+                    conditon: 'CustomerName != ""'
+                    orderBy: "CustomerName desc"
                 },
                 {
                     appId: 2,
                     appName: "Company",
-                    query: 'CompanyName != ""'
+                    conditon: 'CompanyName != ""'
                 },
             ]
         }
