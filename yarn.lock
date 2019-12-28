@@ -791,10 +791,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cybozu/eslint-config@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@cybozu/eslint-config/-/eslint-config-9.0.0.tgz#952696a29c4fee962d8a2e799636bf0a604569e6"
-  integrity sha512-432bvDUXlFJ2v05kqan3ti6rqsfQUdZtXVO0IaqnYlSpP8jWXAszvz7cuGbH0zUbdHlQ2tK5yVOKzskLKXoqEA==
+"@cybozu/eslint-config@^9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@cybozu/eslint-config/-/eslint-config-9.0.1.tgz#f7ec59955128fa95bcadd14c2d74a0ba4069baf0"
+  integrity sha512-hjdFGiNwPjwHYVa0zUFAFvLewyPi4wq07wfWglzyJs715bkZTDJ4xOKE+b8CTgJ3Nl4cDuO/9WrLumdUPEKayg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.1.0"
     "@typescript-eslint/parser" "^2.1.0"
