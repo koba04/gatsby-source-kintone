@@ -1092,10 +1092,10 @@
   dependencies:
     core-js "^2.5.7"
 
-"@kintone/rest-api-client@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-0.2.0.tgz#91cd08baab1ba745f9abb4ccd14b9bc3dd68ef91"
-  integrity sha512-gOabOodHcGkRCAb3/X/Vk/j1A576hde3zItCiD0n5e8Jzj2O5ZoojphBXfm13WS9a5wy6C8fYjawjdw58d5+zQ==
+"@kintone/rest-api-client@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-0.3.0.tgz#a60a2411bea75e5f5d5ce64fe09feb229b9c981e"
+  integrity sha512-nZUMkTpKKFB8otkJyq/Z4nc8FdZ8qJew9/LV4NF7jWjMsuxE5kh8QVg4foAzQB60pNO2IdgA2qQNgU6bv4p6bQ==
   dependencies:
     axios "^0.19.0"
     core-js "^3.3.6"
