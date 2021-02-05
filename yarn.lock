@@ -1689,16 +1689,16 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@kintone/rest-api-client@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-1.8.0.tgz#d5bb426a7bf8102dc19e6fdb045da41898cd2274"
-  integrity sha512-gny23iYZ/3oOgWuR6IZYobJ8ms+5nE7l53usLVqefNquMOozRcmwLpRNVWYlVRR74n201+wn5OkB348huJRS9w==
+"@kintone/rest-api-client@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-1.8.2.tgz#a8b514736c5e893c6d86e60f3955b25285b16d69"
+  integrity sha512-PiraraEwO1GOapKYvz9RIE8o9XP3Gtp5CRlC3zQEnZyeneUVB2xOh4B5ycwjCVdQ7Nicn+DBGFQvIyOmyE2oMw==
   dependencies:
     axios "^0.21.0"
-    core-js "^3.8.1"
+    core-js "^3.8.3"
     form-data "^3.0.0"
     js-base64 "^2.6.4"
-    qs "^6.9.4"
+    qs "^6.9.6"
 
 "@mdx-js/util@^2.0.0-next.8":
   version "2.0.0-next.8"
@@ -4512,7 +4512,7 @@ core-js@^3.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
 
-core-js@^3.8.1:
+core-js@^3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.8.3.tgz#c21906e1f14f3689f93abcc6e26883550dd92dd0"
   integrity sha512-KPYXeVZYemC2TkNEkX/01I+7yd+nX3KddKwZ1Ww7SKWdI2wQprSgLmrTddT8nw92AjEklTsPBoSdQBhbI1bQ6Q==
@@ -11906,7 +11906,7 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.9.4:
+qs@^6.9.4, qs@^6.9.6:
   version "6.9.6"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
   integrity sha512-TIRk4aqYLNoJUbd+g2lEdz5kLWIuTMRagAXxl78Q0RiVjAOugHmeKNGdd3cwo/ktpf9aL9epCfFqWDEKysUlLQ==
