@@ -3,14 +3,14 @@ import { getAllRecords } from "./kintone";
 
 export const sourceNodes = async (
   { actions }: any,
-  { apiToken, host, apps }: any
+  { apiToken, baseUrl, apps }: any
 ) => {
   const { createNode } = actions;
 
   for (const app of apps) {
     try {
       const records = await getAllRecords({
-        host,
+        baseUrl,
         apiToken,
         ...app,
       });

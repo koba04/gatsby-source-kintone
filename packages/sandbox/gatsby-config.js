@@ -30,18 +30,13 @@ module.exports = {
     {
       resolve: `gatsby-source-kintone`,
       options: {
-        host: process.env.KINTONE_HOST,
+        baseUrl: process.env.KINTONE_BASE_URL,
         apiToken: process.env.KINTONE_API_TOKEN,
         apps: [
           {
-            appId: 6,
+            appId: 2,
             appName: "Customer",
             condition: 'CompanyName != ""'
-          },
-          {
-            appId: 8,
-            appName: "Inquiry",
-            condition: 'Customer != ""'
           }
         ]
       }
