@@ -13,6 +13,6 @@ export const getAllRecords = async (params: {
   return client.record.getAllRecords({
     app,
     ...rest,
-    withCursor: true
+    withCursor: true,
   });
 };

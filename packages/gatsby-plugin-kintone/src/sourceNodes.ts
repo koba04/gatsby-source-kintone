@@ -12,7 +12,7 @@ export const sourceNodes = async (
       const records = await getAllRecords({
         host,
         apiToken,
-        ...app
+        ...app,
       });
       records.forEach((record: any) => {
         createNode({
@@ -25,8 +25,8 @@ export const sourceNodes = async (
             contentDigest: crypto
               .createHash(`md5`)
               .update(JSON.stringify({ ...record, ...app }))
-              .digest(`hex`)
-          }
+              .digest(`hex`),
+          },
         });
       });
     } catch (e) {
