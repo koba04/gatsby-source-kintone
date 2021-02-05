@@ -1,3 +1,3 @@
-const {sourceNodes} = require("./lib/index");
+const { sourceNodes } = require("./lib/index");
 
 exports.sourceNodes = sourceNodes;
