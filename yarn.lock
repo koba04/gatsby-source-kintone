@@ -1550,7 +1550,7 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@kintone/rest-api-client@^1.12.4":
+"@kintone/rest-api-client@^1.13.0":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-1.13.0.tgz#76c38368efca99a91ad75b2699dedb7ffa173c93"
   integrity sha512-z3BrwRsgoc9htl+TUiaEtTFd6PH3TDAwLfjQyoszyn3aLQxt0j33FZcDIasQnTECQVu0aJkUH6mprUiS2a5pKw==
