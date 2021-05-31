@@ -31,8 +31,8 @@
   "homepage": "https://github.com/koba04/gatsby-source-kintone#readme",
   "devDependencies": {
     "@cybozu/eslint-config": "^11.0.4",
-    "eslint": "^7.18.0",
-    "prettier": "^2.2.1",
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.0",
     "standard-version": "^8.0.2",
     "typescript": "^4.3.2"
   },
