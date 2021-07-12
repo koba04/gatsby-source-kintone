@@ -1544,13 +1544,13 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@kintone/rest-api-client@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-1.13.0.tgz#76c38368efca99a91ad75b2699dedb7ffa173c93"
-  integrity sha512-z3BrwRsgoc9htl+TUiaEtTFd6PH3TDAwLfjQyoszyn3aLQxt0j33FZcDIasQnTECQVu0aJkUH6mprUiS2a5pKw==
+"@kintone/rest-api-client@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@kintone/rest-api-client/-/rest-api-client-2.0.10.tgz#42395b980ecfa475f3aa1300a21a44d017fd468c"
+  integrity sha512-GbCn44nue6bePi1ncHOKlVPGxwBQjyVMBukPYjI4sFFVoKm0bP8mq8NOJhgXYh+A3rFsUlkiAbd3zJ12QoK+tQ==
   dependencies:
     axios "^0.21.0"
-    core-js "^3.11.0"
+    core-js "^3.15.2"
     form-data "^4.0.0"
     js-base64 "^2.6.4"
     qs "^6.10.1"
@@ -4266,7 +4266,7 @@ core-js@^2.4.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.11.0, core-js@^3.6.5:
+core-js@^3.15.2, core-js@^3.6.5:
   version "3.15.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.15.2.tgz#740660d2ff55ef34ce664d7e2455119c5bdd3d61"
   integrity sha512-tKs41J7NJVuaya8DxIOCnl8QuPHx5/ZVbFo1oKgVl1qHFBBrDctzQGtuLjPpRdNTWmKPH6oEvgN/MUID+l485Q==
