@@ -37,6 +37,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@kintone/rest-api-client": "^1.13.0"
+    "@kintone/rest-api-client": "^2.0.37"
   }
 }
