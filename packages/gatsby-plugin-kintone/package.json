@@ -33,7 +33,7 @@
     "@cybozu/eslint-config": "^11.0.4",
     "eslint": "^7.29.0",
     "prettier": "^2.3.2",
-    "standard-version": "^8.0.2",
+    "standard-version": "^9.5.0",
     "typescript": "^4.3.5"
   },
   "dependencies": {
